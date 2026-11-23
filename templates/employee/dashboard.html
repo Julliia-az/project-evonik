@@ -1,0 +1,58 @@
+{% extends "base.html" %}{% block content %}
+<section class="welcome">
+  <div>
+    <p class="eyebrow">ÁREA DO COLABORADOR</p>
+    <h1>Olá, {{ employee.name.split(' ')[0] }}.</h1>
+    <p>Continue sua jornada de aprendizagem em segurança.</p>
+  </div>
+  <div class="mascot-placeholder small-mascot"><img src="{{ url_for('static',filename='images/mascote/mascote-apontando.png') }}" alt="Mascote Evonik apontando" /></div>
+</section>
+<section class="panel progress-panel">
+  <div class="progress-head">
+    <div>
+      <h2>Integração de Segurança do Trabalho</h2>
+      <p class="muted">Site Americana · ESHQE</p>
+    </div>
+    <strong class="percent">{{ pct }}%</strong>
+  </div>
+  <div class="progress"><span style="width:{{ pct }}%"></span></div>
+  <div class="stats-inline">
+    <span><b>{{ done }}</b> módulos concluídos</span
+    ><span><b>{{ total-done }}</b> restantes</span
+    ><span><b>{{ total }}</b> no total</span>
+  </div>
+  {% if certificate %}<a
+    class="primary button"
+    href="{{ url_for('certificate') }}"
+    >Ver certificado</a
+  >{% elif next_item %}<a
+    class="primary button"
+    href="{{ url_for('training',module_id=next_item.module.id) }}"
+    >Continuar treinamento</a
+  >{% endif %}
+</section>
+<h2 class="section-title">Módulos de aprendizagem</h2>
+<div class="module-grid">
+  {% for item in items %}
+  <article class="module-card">
+    <div class="module-top">
+      <span class="module-number">{{ "%02d"|format(loop.index) }}</span
+      ><span class="status {{ item.status }}"
+        >{{ {'concluido':'Concluído','andamento':'Em
+        andamento','disponivel':'Disponível','bloqueado':'Bloqueado'}[item.status]
+        }}</span
+      >
+    </div>
+    <h3>{{ item.module.title }}</h3>
+    <p>{{ item.module.description }}</p>
+    {% if item.status!='bloqueado' %}<a
+      href="{{ url_for('training',module_id=item.module.id) }}"
+      class="text-link"
+      >Acessar módulo →</a
+    >{% else %}<span class="muted small"
+      >Conclua o módulo anterior para liberar.</span
+    >{% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

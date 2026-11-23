@@ -1,0 +1,31 @@
+{% extends "base.html" %}{% block content %}<a
+  class="back"
+  href="{{ url_for('training',module_id=module.id) }}"
+  >← Voltar ao conteúdo</a
+>
+<section class="course-header">
+  <img class="assessment-mascot" src="{{ url_for('static',filename='images/mascote/mascote-certo-errado.png') }}" alt="Mascote Evonik indicando certo e errado" />
+  <p class="eyebrow">AVALIAÇÃO OBRIGATÓRIA</p>
+  <h1>{{ module.title }}</h1>
+  <p>
+    Selecione uma alternativa por questão. A nota mínima atual é configurada
+    pelo RH.
+  </p>
+</section>
+<form method="post" class="assessment-form">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />{% for q
+  in questions %}
+  <fieldset class="panel question">
+    <legend>{{ loop.index }}. {{ q.prompt }}</legend>
+    {% for opt in q.options %}<label class="option"
+      ><input
+        type="radio"
+        name="q_{{ q.id }}"
+        value="{{ opt.id }}"
+        required
+      /><span>{{ opt.text }}</span></label
+    >{% endfor %}
+  </fieldset>
+  {% endfor %}<button class="primary">Enviar avaliação</button>
+</form>
+{% endblock %}

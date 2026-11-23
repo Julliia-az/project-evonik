@@ -1,0 +1,26 @@
+{% extends "base.html" %}{% block content %}
+<section class="result-card panel">
+  <div class="mascot-placeholder small-mascot">
+    {% if passed %}<img src="{{ url_for('static',filename='images/mascote/mascote-feliz.png') }}" alt="Mascote Evonik feliz" />{% else %}<img src="{{ url_for('static',filename='images/mascote/mascote-atencao.png') }}" alt="Mascote Evonik com dúvida" />{% endif %}
+  </div>
+  {% if passed %}
+  <p class="eyebrow">APROVADO</p>
+  <h1>Você concluiu esta etapa.</h1>
+  {% else %}
+  <p class="eyebrow">NOVA TENTATIVA</p>
+  <h1>Continue estudando.</h1>
+  {% endif %}
+  <div class="score">{{ score|round|int }}<small>%</small></div>
+  <p>Nota mínima para aprovação: {{ threshold|round|int }}%.</p>
+  {% if passed %}
+  <p>O próximo módulo foi liberado, se houver.</p>
+  {% else %}
+  <p>
+    Revise o conteúdo e tente novamente. Seu histórico de tentativas foi
+    registrado.
+  </p>
+  {% endif %}<a class="primary button" href="{{ next_url }}"
+    >Voltar ao painel</a
+  >
+</section>
+{% endblock %}

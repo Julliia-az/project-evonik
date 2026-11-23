@@ -1,0 +1,68 @@
+{% extends "base.html" %}{% block content %}<a
+  class="back"
+  href="{{ url_for('admin_dashboard') }}"
+  >← Painel RH</a
+>
+<section class="welcome">
+  <div>
+    <p class="eyebrow">DETALHES DO COLABORADOR</p>
+    <h1>{{ employee.name }}</h1>
+    <p>
+      {{ employee.email }} · {{ employee.department }} · {{ employee.role or
+      'Cargo não informado' }}
+    </p>
+    <p class="muted small">
+      Conta: {{ 'Ativada' if employee.status=='active' else 'Convite pendente'
+      }} · Ativação: {{ employee.activated_at or '—' }}
+    </p>
+  </div>
+  <span class="status {{ 'concluido' if certificate else 'andamento' }}"
+    >{{ 'Concluído' if certificate else employee.status }}</span
+  >
+</section>
+<section class="panel">
+  <h2>Progresso por módulo</h2>
+  {% for item in items %}
+  <div class="review-row">
+    <span>{{ item.module.title }}</span
+    ><b
+      >{{ 'Concluído' if item.passed else ('Conteúdo estudado' if item.content
+      else 'Pendente') }}</b
+    >
+  </div>
+  {% endfor %}
+</section>
+<section class="panel">
+  <h2>Histórico de avaliações</h2>
+  {% if attempts %}
+  <table>
+    <thead>
+      <tr>
+        <th>Módulo</th>
+        <th>Nota</th>
+        <th>Resultado</th>
+        <th>Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for a in attempts %}
+      <tr>
+        <td>{{ a.title }}</td>
+        <td>{{ a.score }}%</td>
+        <td>{{ 'Aprovado' if a.passed else 'Reprovado' }}</td>
+        <td>{{ a.created_at }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="muted">Nenhuma tentativa registrada.</p>
+  {% endif %}
+</section>
+{% if certificate %}
+<section class="panel">
+  <h2>Certificado</h2>
+  <p>{{ certificate.code }} · {{ certificate.completion_date }}</p>
+  <span class="muted">O PDF fica disponível na conta do colaborador.</span>
+</section>
+{% endif %}{% endblock %}

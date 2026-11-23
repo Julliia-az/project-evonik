@@ -1,0 +1,44 @@
+{% extends "base.html" %}{% block content %}<a
+  class="back"
+  href="{{ url_for('admin_dashboard') }}"
+  >← Painel RH</a
+>
+<section class="welcome">
+  <div>
+    <p class="eyebrow">REVISÃO INSTITUCIONAL</p>
+    <h1>Conteúdo do treinamento</h1>
+    <p>
+      Revise módulos, questões, gabaritos e referências antes da publicação.
+    </p>
+  </div>
+</section>
+<section class="panel">
+  <h2>Nota mínima de aprovação</h2>
+  <form
+    class="inline-form"
+    method="post"
+    action="{{ url_for('update_threshold') }}"
+  >
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" /><input
+      type="number"
+      name="pass_score"
+      min="1"
+      max="100"
+      step="1"
+      value="{{ threshold }}"
+    /><button class="primary">Salvar nota</button>
+  </form>
+</section>
+<div class="module-grid">
+  {% for m in modules %}
+  <article class="module-card">
+    <span class="module-number">{{ "%02d"|format(loop.index) }}</span>
+    <h3>{{ m.title }}</h3>
+    <p>{{ m.description }}</p>
+    <a class="text-link" href="{{ url_for('module_review',module_id=m.id) }}"
+      >Revisar conteúdo e avaliação →</a
+    >
+  </article>
+  {% endfor %}
+</div>
+{% endblock %}

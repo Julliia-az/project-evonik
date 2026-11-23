@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block content %}
+<section class="certificate-preview">
+  <p class="eyebrow">EVONIK · CERTIFICAÇÃO</p>
+  <h1>Certificado de conclusão</h1>
+  <p>Certificamos que</p>
+  <h2>{{ employee.name }}</h2>
+  <p>concluiu o treinamento <b>{{ certificate.training_name }}</b>.</p>
+  <p>Data de conclusão: {{ certificate.completion_date }}</p>
+  <div class="signature">Identificação / assinatura do responsável</div>
+  <p class="muted small">Código: {{ certificate.code }}</p>
+</section>
+<a class="primary button" href="{{ url_for('certificate_pdf') }}"
+  >Baixar certificado PDF</a
+>{% endblock %}

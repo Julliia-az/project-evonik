@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block content %}
+<section class="narrow panel">
+  <h1>Recuperação de senha</h1>
+  <p>
+    Esta tela é demonstrativa. A integração com e-mail será implementada em
+    etapa futura.
+  </p>
+  <form method="post">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" /><label
+      >E-mail corporativo<input type="email" name="email" required /></label
+    ><button class="primary">Solicitar recuperação</button>
+  </form>
+</section>
+{% endblock %}

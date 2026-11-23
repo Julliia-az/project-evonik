@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block content %}
+<section class="narrow panel">
+  <h1>{{ code }}</h1>
+  <p>{{ message }}</p>
+  <a class="primary button" href="{{ url_for('index') }}">Voltar</a>
+</section>
+{% endblock %}

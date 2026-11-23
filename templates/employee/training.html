@@ -1,0 +1,49 @@
+{% extends "base.html" %}{% block content %}<a
+  class="back"
+  href="{{ url_for('employee_dashboard') }}"
+  >← Meu treinamento</a
+>
+<section class="course-header">
+  <img class="training-mascot" src="{{ url_for('static',filename='images/mascote/mascote-lousa.png') }}" alt="Mascote Evonik apresentando o conteúdo" />
+  <p class="eyebrow">MÓDULO DE APRENDIZAGEM</p>
+  <h1>{{ item.module.title }}</h1>
+  <p>{{ item.module.description }}</p>
+</section>
+<section class="panel">
+  <h2>Objetivos de aprendizagem</h2>
+  <ul>
+    {% for o in objectives %}
+    <li>{{ o }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% for s in sections %}
+<article class="content-section">
+  <h2>{{ s.heading }}</h2>
+  <p>{{ s.body }}</p>
+  <p class="source-ref">Fonte: {{ s.source }}</p>
+</article>
+{% endfor %}
+<div class="notice">
+  <b>Conteúdo institucional:</b> este módulo foi organizado a partir da
+  apresentação Integração de Segurança_2026 — REV08. Consulte seu responsável em
+  caso de dúvida operacional.
+</div>
+{% if item.passed %}
+<div class="success-block">Módulo concluído.</div>
+{% elif item.content %}<a
+  class="primary button"
+  href="{{ url_for('assessment',module_id=item.module.id) }}"
+  >Ir para avaliação</a
+>{% else %}
+<form
+  method="post"
+  action="{{ url_for('complete_content',module_id=item.module.id) }}"
+>
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" /><button
+    class="primary"
+  >
+    Concluir conteúdo e iniciar avaliação
+  </button>
+</form>
+{% endif %}{% endblock %}

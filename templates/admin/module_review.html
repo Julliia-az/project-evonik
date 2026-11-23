@@ -1,0 +1,44 @@
+{% extends "base.html" %}{% block content %}<a
+  class="back"
+  href="{{ url_for('course_review') }}"
+  >← Curso</a
+>
+<section class="course-header">
+  <p class="eyebrow">REVISÃO RH / ESHQE</p>
+  <h1>{{ module.title }}</h1>
+  <p>{{ module.description }}</p>
+</section>
+<section class="panel">
+  <h2>Objetivos</h2>
+  <ul>
+    {% for o in objectives %}
+    <li>{{ o }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% for s in sections %}
+<article class="content-section">
+  <h2>{{ s.heading }}</h2>
+  <p>{{ s.body }}</p>
+  <p class="source-ref">Referência: {{ s.source }}</p>
+</article>
+{% endfor %}
+<h2 class="section-title">Questões e gabarito (visão administrativa)</h2>
+{% for item in questions %}
+<section class="panel question">
+  <h3>{{ loop.index }}. {{ item.question.prompt }}</h3>
+  <ul class="answer-list">
+    {% for opt in item.options %}
+    <li class="{{ 'correct' if opt.is_correct else '' }}">
+      {{ opt.text }} {% if opt.is_correct %}<b>— CORRETA</b>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="source-ref">Fundamentação: {{ item.question.reference }}</p>
+</section>
+{% endfor %}
+<div class="notice">
+  A edição direta de conteúdo e questões ainda não está habilitada nesta versão.
+  As fontes e gabaritos estão organizados para revisão.
+</div>
+{% endblock %}

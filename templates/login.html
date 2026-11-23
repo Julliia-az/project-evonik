@@ -1,0 +1,41 @@
+{% extends "base.html" %}{% block title %}Acesso | Evonik{% endblock %}{% block
+content %}
+<section class="login-layout">
+  <div class="login-copy">
+    <div class="mascot-placeholder">
+      <img
+        src="{{ url_for('static',filename='images/mascote/mascote-principal.png') }}"
+        onerror="this.style.display = 'none'"
+        alt="Evonik"
+      />
+    </div>
+    <p class="eyebrow">EVONIK · SITE AMERICANA</p>
+    <h1>Segurança é um valor.</h1>
+    <p>
+      Capacitação, conhecimento e comportamento seguro fazem parte da nossa
+      rotina.
+    </p>
+  </div>
+  <form class="panel login-form" method="post">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <h2>Acessar plataforma</h2>
+    <label
+      >E-mail<input
+        type="email"
+        name="email"
+        required
+        autocomplete="username" /></label
+    ><label
+      >Senha<input
+        type="password"
+        name="password"
+        required
+        autocomplete="current-password" /></label
+    ><button class="primary full">Entrar</button
+    ><a href="{{ url_for('recovery') }}">Esqueci minha senha</a>
+    <p class="muted small">
+      Ambiente de demonstração. Utilize as credenciais do README.
+    </p>
+  </form>
+</section>
+{% endblock %}

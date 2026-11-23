@@ -1,0 +1,996 @@
+{
+  "training_name": "Integração de Segurança do Trabalho",
+  "company": "Evonik",
+  "source": "Integração de Segurança_2026.pptx — REV08, Site Americana",
+  "modules": [
+    {
+      "slug": "conhecendo-a-evonik",
+      "title": "Conhecendo a Evonik e o ESHQE",
+      "description": "Apresentação da empresa e dos pilares de meio ambiente, segurança, saúde, qualidade e energia.",
+      "objectives": [
+        "Reconhecer o significado de ESHQE.",
+        "Identificar os compromissos apresentados para meio ambiente, saúde, segurança e qualidade.",
+        "Compreender o objetivo da integração de segurança."
+      ],
+      "sections": [
+        {
+          "heading": "O que é ESHQE?",
+          "body": "A apresentação utiliza a sigla ESHQE para representar: E – Environment (Meio Ambiente); S – Safety (Segurança do Trabalho); H – Health (Saúde); Q – Quality (Qualidade); E – Energy (Energia).",
+          "source": "Slides 3 e 4"
+        },
+        {
+          "heading": "Pilares apresentados",
+          "body": "Meio Ambiente: compromisso com a proteção ambiental, minimização dos impactos ambientais e redução da extração de recursos naturais. Saúde: atuação voltada à prevenção de acidentes e doenças do trabalho e à promoção da saúde e qualidade de vida. Segurança do Trabalho: proteção do trabalhador no local de trabalho, buscando reduzir acidentes e doenças ocupacionais. Qualidade: conformidade de produtos, processos e serviços com padrões internos, normas e requisitos de clientes.",
+          "source": "Slides 5 a 8"
+        },
+        {
+          "heading": "Objetivo da integração",
+          "body": "A integração de segurança é um processo de treinamento e adaptação ao ambiente de trabalho. Seu objetivo é orientar funcionários e prestadores de serviços sobre riscos relacionados à função ou atividade profissional, visando à execução das atividades com saúde e segurança.",
+          "source": "Slide 16"
+        },
+        {
+          "heading": "Conteúdo para validação",
+          "body": "A apresentação também contém tópicos sobre Energy, Security, Compliance e informações institucionais. Alguns desses tópicos aparecem apenas de forma resumida ou por referência visual. O detalhamento deverá ser validado pelo RH/ESHQE antes da publicação definitiva.",
+          "source": "Slides 9 a 12"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Na estrutura ESHQE apresentada na integração, qual é a correspondência correta de cada letra?",
+          "options": [
+            "Environment (Meio Ambiente), Safety (Segurança do Trabalho), Health (Saúde), Quality (Qualidade) e Energy (Energia)",
+            "Environment (Energia), Safety (Saúde), Health (Segurança), Quality (Qualidade) e Energy (Meio Ambiente)",
+            "Engineering (Engenharia), Safety (Segurança), Health (Higiene), Quality (Qualidade) e Environment (Energia)",
+            "Environment (Meio Ambiente), Security (Segurança Patrimonial), Health (Saúde), Quality (Qualidade) e Efficiency (Eficiência)"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 1 – APRESENTAÇÃO DO SITE, ESHQE E INFORMAÇÕES GERAIS"
+        },
+        {
+          "prompt": "Qual é o principal objetivo da integração de segurança do trabalho realizada no Site Americana?",
+          "options": [
+            "Apresentar as instalações da empresa e liberar o acesso dos trabalhadores, independentemente da atividade que irão executar",
+            "Orientar funcionários e prestadores sobre os riscos relacionados às suas funções ou atividades, permitindo que trabalhem com saúde e segurança",
+            "Substituir os treinamentos específicos das atividades por uma orientação geral sobre segurança",
+            "Apresentar as regras administrativas e operacionais, deixando a avaliação dos riscos sob responsabilidade exclusiva dos supervisores"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 1 – APRESENTAÇÃO DO SITE, ESHQE E INFORMAÇÕES GERAIS"
+        },
+        {
+          "prompt": "Sobre o funcionamento do refeitório do Site Americana, qual procedimento está correto?",
+          "options": [
+            "O funcionamento ocorre das 11h às 13h, de segunda a sexta-feira, mas as bandejas devem permanecer nas mesas após a refeição",
+            "O funcionamento ocorre das 11h às 14h, de segunda a sexta-feira, com acesso permitido durante todo o período",
+            "O funcionamento ocorre das 11h às 13h, de segunda a sexta-feira, e as bandejas devem ser devolvidas nos locais indicados após a refeição",
+            "O funcionamento ocorre das 12h às 14h, de segunda a sexta-feira, e cada usuário deve higienizar individualmente as mesas"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 1 – APRESENTAÇÃO DO SITE, ESHQE E INFORMAÇÕES GERAIS"
+        },
+        {
+          "prompt": "Qual alternativa apresenta corretamente as informações institucionais da Evonik no Brasil mencionadas na apresentação?",
+          "options": [
+            "Presente no Brasil desde 1953, com sede administrativa em São Paulo e unidades em Barra do Riacho, Americana e Castro",
+            "Presente no Brasil desde 1960, com sede administrativa em Americana e unidades em São Paulo, Castro e Guarulhos",
+            "Presente no Brasil desde 1953, com sede administrativa em Americana e unidades em Barra do Riacho, Morumbi e Itajaí",
+            "Presente no Brasil desde 1975, com sede administrativa em São Paulo e unidades em Americana, Mucuri e Cascavel"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 1 – APRESENTAÇÃO DO SITE, ESHQE E INFORMAÇÕES GERAIS"
+        },
+        {
+          "prompt": "Qual é o procedimento correto de identificação para prestadores de serviço com tempo de permanência determinado no Site Americana?",
+          "options": [
+            "Retirar o crachá na portaria no primeiro dia, mantê-lo durante todo o contrato e devolvê-lo somente após o encerramento do serviço",
+            "Portar o crachá Evonik acompanhado do cartão de segurança, em local visível, retirar o crachá na portaria antes das atividades e devolvê-lo ao final de cada expediente",
+            "Portar somente o cartão de segurança durante a execução e apresentar o crachá Evonik apenas quando solicitado",
+            "Retirar o crachá na portaria diariamente, mas mantê-lo com o prestador durante os períodos em que não estiver executando atividades"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 2 – ACESSO AO SITE, IDENTIFICAÇÃO E NORMAS INTERNAS"
+        },
+        {
+          "prompt": "Em uma atividade na qual o crachá possa restringir a movimentação ou oferecer risco ao trabalhador, qual é a orientação apresentada no material?",
+          "options": [
+            "Retirar o crachá definitivamente e comunicar a portaria somente no encerramento do contrato",
+            "Substituir o crachá por uma identificação verbal junto ao responsável da área",
+            "Guardar o crachá, podendo apresentá-lo imediatamente caso seja solicitado pela Segurança Industrial e Meio Ambiente",
+            "Deixar o crachá com outro integrante da equipe para que ele apresente em caso de fiscalização"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 2 – ACESSO AO SITE, IDENTIFICAÇÃO E NORMAS INTERNAS"
+        },
+        {
+          "prompt": "Ao circular a pé pelas dependências da empresa, qual conjunto de condutas está de acordo com as normas internas?",
+          "options": [
+            "Utilizar as faixas de pedestres, utilizar o corrimão e evitar falar ou digitar no celular enquanto caminha",
+            "Utilizar as faixas de pedestres somente nas áreas externas e permitir o uso do celular quando estiver em baixa velocidade",
+            "Utilizar o corrimão somente ao descer escadas e consultar o celular quando não houver veículos próximos",
+            "Priorizar os caminhos mais curtos, mesmo que não possuam sinalização de circulação de pedestres"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 2 – ACESSO AO SITE, IDENTIFICAÇÃO E NORMAS INTERNAS"
+        },
+        {
+          "prompt": "Qual é o limite de velocidade indicado para circulação de veículos dentro do Site Americana?",
+          "options": [
+            "20 km/h, sendo permitido estacionar de frente quando a vaga estiver sinalizada",
+            "25 km/h, com uso obrigatório do cinto somente nas áreas de produção",
+            "26 km/h, sendo recomendado estacionar de frente para facilitar a saída",
+            "26 km/h, com habilitação adequada e recomendação de estacionar sempre de marcha à ré"
+          ],
+          "correct": 3,
+          "reference": "ETAPA 2 – ACESSO AO SITE, IDENTIFICAÇÃO E NORMAS INTERNAS"
+        },
+        {
+          "prompt": "Qual alternativa apresenta corretamente as restrições e recomendações aplicáveis aos veículos particulares dentro da empresa?",
+          "options": [
+            "É permitido portar armas brancas, desde que declaradas na portaria, e o estacionamento de ré é obrigatório",
+            "É proibido portar armas de fogo e armas brancas, assim como consumir bebidas alcoólicas e drogas lícitas ou ilícitas nas dependências da empresa; recomenda-se o uso do cinto e estacionar de ré",
+            "É proibido somente o consumo de bebidas alcoólicas, sendo permitido compartilhar medicamentos e portar armas brancas",
+            "O uso do cinto é recomendado apenas nas áreas de circulação externa, e o estacionamento pode ser feito em qualquer sentido"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 2 – ACESSO AO SITE, IDENTIFICAÇÃO E NORMAS INTERNAS"
+        },
+        {
+          "prompt": "Qual é a orientação específica sobre o uso de celular durante a circulação pelo site?",
+          "options": [
+            "É permitido digitar mensagens quando o trabalhador estiver utilizando a faixa de pedestres",
+            "É permitido falar ao celular desde que o trabalhador esteja caminhando lentamente",
+            "O trabalhador deve identificar um caminho seguro e não falar nem digitar no celular enquanto caminha",
+            "O celular deve ser utilizado somente quando não houver movimentação de veículos"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 2 – ACESSO AO SITE, IDENTIFICAÇÃO E NORMAS INTERNAS"
+        }
+      ]
+    },
+    {
+      "slug": "regras-e-boas-praticas",
+      "title": "Regras do site e boas práticas",
+      "description": "Identificação, circulação, boas práticas de fabricação, higiene e comunicação de ocorrências.",
+      "objectives": [
+        "Reconhecer as regras de identificação e uso do crachá.",
+        "Identificar os tipos de contaminação descritos na apresentação.",
+        "Compreender a importância da limpeza e da comunicação de ocorrências."
+      ],
+      "sections": [
+        {
+          "heading": "Refeitório",
+          "body": "A apresentação informa que o refeitório funciona de segunda a sexta-feira, das 11h às 13h. O acesso é permitido apenas nesse horário. Após a refeição, todos devem devolver as bandejas nos locais indicados e manter o espaço limpo e preparado para os próximos usuários.",
+          "source": "Slide 10"
+        },
+        {
+          "heading": "Identificação e uniforme",
+          "body": "Nas dependências da Evonik, a identificação permite rastrear a autorização para trabalho ou permanência no site. O trabalhador deve portar o crachá em local visível e acompanhado do cartão de segurança. Para prestadores de serviços com tempo determinado, a apresentação orienta retirar o crachá na portaria antes das atividades e devolvê-lo ao fim do expediente, repetindo o processo diariamente.",
+          "source": "Slide 26"
+        },
+        {
+          "heading": "Boas Práticas de Fabricação (BPF)",
+          "body": "A apresentação define BPF como um conjunto de princípios e regras para assegurar que alimentos, medicamentos e cosméticos sejam seguros e garantam a saúde e integridade do consumidor. Produto seguro é aquele que não apresenta riscos de causar danos à saúde e é puro, livre de contaminação.",
+          "source": "Slide 18"
+        },
+        {
+          "heading": "Tipos de contaminação",
+          "body": "Física: exemplos incluem vidros, grampos, madeira, sobras de manutenção, papel, pragas e plásticos. Microbiológica: exemplos incluem mãos e uniformes sujos e ferimentos expostos. Química: exemplos incluem produtos de limpeza, produtos para combate a pragas, alergênicos e lubrificantes. A apresentação alerta que alergênicos podem estar presentes em alimentos trazidos pelos colaboradores às instalações.",
+          "source": "Slide 18"
+        },
+        {
+          "heading": "Limpeza, higiene e organização",
+          "body": "A apresentação relaciona limpeza, higiene e organização à qualidade de vida, produtividade, conservação de equipamentos e materiais, facilidade de localização, conscientização, disciplina e redução de acidentes.",
+          "source": "Slide 20"
+        },
+        {
+          "heading": "Comunicação de acidentes e incidentes",
+          "body": "A apresentação aborda a comunicação de acidentes, incidentes, ocorrências ambientais, acidentes sem lesão e acidentes de trajeto. Também informa a existência de pontos de comunicação de ESHQE e registros de condições/comportamentos seguros ou inseguros, ocorrências ambientais e sugestões de melhoria.",
+          "source": "Slides 22 a 24"
+        },
+        {
+          "heading": "Outras regras do site",
+          "body": "A apresentação inclui orientações sobre circulação, faixa de pedestres, corrimão, uso de celular, fumódromo, CIPAA e mapa de riscos. Alguns detalhes dependem de leitura das imagens e validação do responsável pelo treinamento.",
+          "source": "Slides 15 e 27 a 34"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A integração apresenta três tipos principais de contaminação. Qual alternativa associa corretamente o tipo à sua origem?",
+          "options": [
+            "Física: lubrificantes e produtos de limpeza; microbiológica: vidros e plásticos; química: mãos e uniformes sujos",
+            "Física: vidros, grampos e sobras de manutenção; microbiológica: mãos e uniformes sujos; química: produtos de limpeza e lubrificantes",
+            "Física: bactérias e ferimentos expostos; microbiológica: alergênicos; química: madeira e papel",
+            "Física: produtos de combate a pragas; microbiológica: plásticos e grampos; química: mãos e uniformes sujos"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 3 – BOAS PRÁTICAS DE FABRICAÇÃO, HIGIENE E ORGANIZAÇÃO"
+        },
+        {
+          "prompt": "Por que os alimentos trazidos pelos colaboradores às instalações podem representar um risco para as Boas Práticas de Fabricação?",
+          "options": [
+            "Porque podem introduzir alergênicos nas instalações, mesmo que essas substâncias não sejam utilizadas intencionalmente no processo de fabricação",
+            "Porque todos os alimentos trazidos pelos colaboradores são considerados contaminantes microbiológicos, independentemente de sua composição",
+            "Porque alimentos externos são classificados exclusivamente como contaminantes físicos, devido às suas embalagens",
+            "Porque qualquer alimento trazido de fora altera obrigatoriamente a composição química dos produtos fabricados"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 3 – BOAS PRÁTICAS DE FABRICAÇÃO, HIGIENE E ORGANIZAÇÃO"
+        },
+        {
+          "prompt": "Qual é a relação entre limpeza, higiene e organização e a segurança operacional apresentada no material?",
+          "options": [
+            "A organização melhora a aparência do ambiente, mas não interfere na conservação de equipamentos ou na prevenção de acidentes",
+            "A limpeza é importante apenas para atender aos requisitos de fabricação, não tendo relação com a produtividade",
+            "A organização facilita a localização de materiais e equipamentos, contribui para sua conservação e diminui acidentes de trabalho",
+            "A limpeza deve ser realizada somente ao final das atividades, pois sua execução durante o trabalho aumenta os riscos"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 3 – BOAS PRÁTICAS DE FABRICAÇÃO, HIGIENE E ORGANIZAÇÃO"
+        },
+        {
+          "prompt": "Qual conjunto de referências normativas de Boas Práticas de Fabricação aparece na integração?",
+          "options": [
+            "FSSC 22000 para cosméticos e EFFCI para alimentos",
+            "ISSO 14001 para alimentos e ISSO 45001 para cosméticos",
+            "FSSC 22000 para segurança ocupacional e EFFCI para gestão ambiental",
+            "FSSC 22000 para alimentos e EFFCI para cosméticos"
+          ],
+          "correct": 3,
+          "reference": "ETAPA 3 – BOAS PRÁTICAS DE FABRICAÇÃO, HIGIENE E ORGANIZAÇÃO"
+        },
+        {
+          "prompt": "De acordo com a definição apresentada no material, qual situação caracteriza um acidente de trabalho?",
+          "options": [
+            "Toda ocorrência não programada que gere exclusivamente danos materiais, mesmo sem relação com o trabalho",
+            "Ocorrência pelo exercício do trabalho a serviço da empresa que provoque lesão corporal ou perturbação funcional, podendo causar morte ou redução da capacidade de trabalho",
+            "Qualquer situação de risco identificada antes do início de uma atividade, mesmo sem ocorrência de dano",
+            "Somente uma ocorrência que provoque afastamento definitivo do trabalhador"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 4 – ACIDENTES, INCIDENTES E COMUNICAÇÃO ESHQE"
+        },
+        {
+          "prompt": "Como o material caracteriza uma ocorrência não programada que foge ao andamento normal do trabalho e pode resultar em danos físicos, funcionais, materiais ou econômicos?",
+          "options": [
+            "Como uma ocorrência exclusivamente administrativa",
+            "Como uma condição normal de operação",
+            "Como um acidente ou incidente que deve ser tratado e comunicado conforme sua natureza",
+            "Como uma situação que somente precisa ser registrada quando houver afastamento"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 4 – ACIDENTES, INCIDENTES E COMUNICAÇÃO ESHQE"
+        },
+        {
+          "prompt": "Quais tipos de registros podem ser realizados por meio da Comunicação de ESHQE?",
+          "options": [
+            "Apenas acidentes com afastamento e solicitações de manutenção",
+            "Somente reclamações sobre condições de trabalho e sugestões administrativas",
+            "Registros de segurança, saúde, meio ambiente, qualidade e energia, incluindo sugestões de melhoria",
+            "Exclusivamente ocorrências ambientais com danos comprovados"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 4 – ACIDENTES, INCIDENTES E COMUNICAÇÃO ESHQE"
+        },
+        {
+          "prompt": "Um colaborador identifica um vazamento sem feridos e deseja registrar a ocorrência. Qual é a finalidade adequada da Comunicação de ESHQE?",
+          "options": [
+            "Registrar o vazamento como uma ocorrência ambiental, assim como derramamentos e contaminações",
+            "Registrar somente se o vazamento atingir uma área externa ao site",
+            "Registrar como acidente de trabalho obrigatoriamente, independentemente de qualquer consequência",
+            "Utilizar a comunicação apenas se houver necessidade de atendimento médico"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 4 – ACIDENTES, INCIDENTES E COMUNICAÇÃO ESHQE"
+        },
+        {
+          "prompt": "Qual alternativa apresenta corretamente os locais indicados para acesso à Comunicação de ESHQE?",
+          "options": [
+            "Somente portaria, refeitório e laboratório de sílica",
+            "Copa ESHQE, hall do prédio administrativo (engenharia), área de terceiros, convivência de motoristas, copa SGS e portaria",
+            "Apenas prédio administrativo, oficina mecânica e warehouse de orgânicos",
+            "Somente áreas de produção, almoxarifado e sala da Segurança Industrial"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 4 – ACIDENTES, INCIDENTES E COMUNICAÇÃO ESHQE"
+        }
+      ]
+    },
+    {
+      "slug": "percepcao-de-riscos",
+      "title": "Percepção de riscos e comportamento seguro",
+      "description": "Conceitos de perigo e risco, prevenção, linha de fogo e comportamento seguro.",
+      "objectives": [
+        "Diferenciar perigo de risco conforme as definições da apresentação.",
+        "Reconhecer práticas de percepção de risco.",
+        "Identificar situações relacionadas à linha de fogo."
+      ],
+      "sections": [
+        {
+          "heading": "Perigo e risco",
+          "body": "Perigo é definido como fonte, situação ou ato com potencial para provocar danos em termos de lesão às pessoas ou doenças, ou uma combinação destes. Risco é a combinação da probabilidade de ocorrência e da(s) consequência(s) de um determinado evento perigoso (probabilidade versus gravidade). A apresentação atribui as definições à OHSAS 18001:2007.",
+          "source": "Slide 62"
+        },
+        {
+          "heading": "Percepção e comportamento seguro",
+          "body": "A apresentação orienta conhecer os padrões de segurança, observar o que está incorreto ou tendendo ao erro antes da tarefa/inspeção, observar interferências com colegas durante a atividade e pensar antes de agir. Também destaca que a segurança individual está relacionada à segurança de todos.",
+          "source": "Slide 61"
+        },
+        {
+          "heading": "Linha de fogo",
+          "body": "Linha de fogo é qualquer área onde uma pessoa pode ser atingida por objetos em movimento, quedas de materiais, partes de máquinas ou estilhaços. A apresentação orienta não permanecer abaixo, à frente ou ao lado da trajetória de cargas suspensas; manter distância segura de máquinas em operação e áreas de içamento; antecipar riscos; comunicar e sinalizar operações; e escolher posições mais seguras.",
+          "source": "Slide 65"
+        },
+        {
+          "heading": "Medidas de perigo e risco",
+          "body": "O slide apresenta uma sequência de medidas: identificação, avaliação, eliminação, substituição, isolamento, aceitação, controles administrativos e EPI. A aplicação e a hierarquia operacional devem ser confirmadas com o ESHQE antes de transformar o esquema em procedimento detalhado.",
+          "source": "Slide 63"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Qual é a diferença entre perigo e risco conforme as definições apresentadas na integração?",
+          "options": [
+            "Perigo é a probabilidade de um evento acontecer; risco é a fonte que pode causar lesão",
+            "Perigo é uma fonte, situação ou ato com potencial de causar danos; risco combina probabilidade de ocorrência e gravidade das consequências",
+            "Perigo representa somente danos materiais; risco representa somente lesões pessoais",
+            "Perigo e risco são equivalentes, sendo utilizados apenas em documentos diferentes"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 5 – PERCEPÇÃO DE RISCOS E COMPORTAMENTO SEGURO"
+        },
+        {
+          "prompt": "Segundo a sequência de medidas apresentada no slide de medidas de perigo e risco, qual alternativa contém exclusivamente medidas mencionadas no material?",
+          "options": [
+            "Identificação, avaliação, eliminação, substituição, isolamento, aceitação, EPI e controle administrativo",
+            "Identificação, autorização, monitoramento, manutenção, inspeção, treinamento e liberação",
+            "Avaliação, contratação, sinalização, comunicação, fiscalização, aceitação e encerramento",
+            "Eliminação, treinamento, autorização, inspeção, bloqueio, manutenção e supervisão"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 5 – PERCEPÇÃO DE RISCOS E COMPORTAMENTO SEGURO"
+        },
+        {
+          "prompt": "O material afirma que só é possível perceber que algo está errado quando conhecemos o padrão correto. O que isso significa na prática?",
+          "options": [
+            "O trabalhador deve memorizar apenas os procedimentos da própria função e desconsiderar interferências externas",
+            "A avaliação de riscos deve ocorrer somente depois que uma condição insegura for observada",
+            "O trabalhador deve conhecer os padrões de segurança para identificar desvios e situações que estejam tendendo ao erro",
+            "A identificação de desvios é responsabilidade exclusiva da Segurança Industrial"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 5 – PERCEPÇÃO DE RISCOS E COMPORTAMENTO SEGURO"
+        },
+        {
+          "prompt": "Durante uma atividade, um trabalhador percebe que outra equipe está executando um serviço próximo, criando uma possível interferência. Qual atitude corresponde à orientação do slide de percepção de risco?",
+          "options": [
+            "Manter o planejamento original, pois cada equipe responde somente pela própria atividade",
+            "Observar as interferências com os colegas, antecipar os riscos e aplicar o raciocínio preventivo antes de agir",
+            "Interromper somente a atividade da outra equipe, sem comunicar o responsável",
+            "Aguardar a ocorrência de uma condição insegura para então revisar o planejamento"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 5 – PERCEPÇÃO DE RISCOS E COMPORTAMENTO SEGURO"
+        },
+        {
+          "prompt": "O que caracteriza uma situação de Linha de Fogo?",
+          "options": [
+            "Permanecer em qualquer área demarcada para movimentação de pessoas",
+            "Trabalhar próximo a equipamentos desligados, mesmo que estejam bloqueados",
+            "Permanecer em uma área onde objetos, cargas, partes de máquinas ou estilhaços possam atingir o trabalhador por movimento ou queda",
+            "Circular em uma área de produção sem utilizar o uniforme completo"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 5 – PERCEPÇÃO DE RISCOS E COMPORTAMENTO SEGURO"
+        },
+        {
+          "prompt": "Um trabalhador precisa acompanhar uma operação de içamento. Qual posicionamento está de acordo com a regra de prevenção da Linha de Fogo?",
+          "options": [
+            "Permanecer abaixo da carga, desde que utilize capacete e botina",
+            "Posicionar-se na frente da trajetória da carga para acompanhar o deslocamento",
+            "Manter distância da operação, sem permanecer abaixo, à frente ou ao lado da trajetória de cargas suspensas",
+            "Aproximar-se da carga durante o deslocamento para observar possíveis oscilações"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 5 – PERCEPÇÃO DE RISCOS E COMPORTAMENTO SEGURO"
+        }
+      ]
+    },
+    {
+      "slug": "pt-e-loto",
+      "title": "Permissão de Trabalho e LOTO",
+      "description": "Permissão de Trabalho, gestão das três vias, checklists e bloqueio/sinalização/teste de energias perigosas.",
+      "objectives": [
+        "Explicar a finalidade da Permissão de Trabalho.",
+        "Identificar a destinação das três vias da PT.",
+        "Reconhecer as etapas de LOTO descritas no material."
+      ],
+      "sections": [
+        {
+          "heading": "Permissão de Trabalho (PT)",
+          "body": "A PT ou PPT é apresentada como documento de autorização para que um trabalhador execute uma atividade de forma segura, ciente dos fatores relacionados aos riscos ocupacionais, treinado e protegido. É aplicável a atividades em máquinas, áreas e equipamentos e ao acesso a áreas de risco, por determinado período.",
+          "source": "Slide 67"
+        },
+        {
+          "heading": "Trabalhos específicos e autorização",
+          "body": "A apresentação lista trabalho em altura, espaço confinado, energia elétrica, trabalho a quente, escavação e içamento de carga. Para trabalhos eventuais e não rotineiros, o documento de PT registra a avaliação dos riscos. O material orienta não executar trabalhos sem autorização do responsável da área ou do setor de segurança do trabalho.",
+          "source": "Slide 68"
+        },
+        {
+          "heading": "Gestão das três vias",
+          "body": "1ª via branca: área responsável. 2ª via rosa: executante. 3ª via amarela: Departamento de Segurança (SIMA). A apresentação também descreve o envolvimento da área, executante e Segurança Industrial em campo e a necessidade de agrupar novamente as três vias para modificações ou renovações, com entrega ao SIMA após o término da atividade.",
+          "source": "Slide 70"
+        },
+        {
+          "heading": "Checklist de segurança",
+          "body": "Os checklists são apresentados como instrumentos para equipamentos e atividades de alto risco. Comprovam que medidas de prevenção foram aplicadas e permitem verificar etapas críticas antes, durante e após a execução.",
+          "source": "Slide 71"
+        },
+        {
+          "heading": "Conceito de LOTO",
+          "body": "LOTO significa Lock Out (Bloqueio), Tag Out (Sinalização) e Try Out (Teste). O slide descreve: 1º Instrumentista/Eletricista realiza o bloqueio; 2º Executante aplica seu cadeado e tag na caixa de LOTO; 3º Executante realiza o Try Out em campo. O material lista energias elétricas, pneumáticas, hidráulicas, químicas, térmicas, gravitacionais, mecânicas e residuais, ou combinações delas.",
+          "source": "Slide 73"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "De acordo com a integração, em quais situações a Permissão de Trabalho é obrigatória?",
+          "options": [
+            "Em todas as atividades rotineiras, mesmo que não envolvam riscos específicos",
+            "Em trabalhos eventuais e não rotineiros, nos quais o preenchimento permite avaliar os riscos da atividade",
+            "Somente em atividades realizadas por empresas terceirizadas",
+            "Apenas em atividades que já tenham apresentado acidentes anteriormente"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        },
+        {
+          "prompt": "Qual é a condição apresentada para o início de qualquer atividade sujeita à Permissão de Trabalho?",
+          "options": [
+            "A atividade pode começar após a autorização verbal do executante, desde que o checklist seja preenchido ao final",
+            "A atividade pode começar com a primeira via preenchida, mesmo sem avaliação de risco",
+            "Nenhuma atividade poderá ser iniciada sem avaliação de risco formalizada por meio da PT",
+            "A atividade pode começar quando a equipe possuir experiência anterior, mesmo sem PT"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        },
+        {
+          "prompt": "Qual é a distribuição correta das três vias da Permissão de Trabalho?",
+          "options": [
+            "Branca: área responsável; rosa: executante; amarela: Segurança (SIMA)",
+            "Branca: executante; rosa: Segurança (SIMA); amarela: área responsável",
+            "Branca: Segurança (SIMA); rosa: área responsável; amarela: executante",
+            "Branca: portaria; rosa: executante; amarela: gestor do contrato"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        },
+        {
+          "prompt": "Durante a execução de uma atividade autorizada, surge a necessidade de incluir outro trabalhador na equipe. Qual procedimento deve ser seguido?",
+          "options": [
+            "Inserir o nome apenas na via que está com o executante e continuar o trabalho",
+            "Comunicar verbalmente a área responsável, mantendo as vias sem alteração",
+            "Agrupar novamente as três vias para realizar a modificação correspondente",
+            "Emitir uma nova via rosa, mantendo as demais vias inalteradas"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        },
+        {
+          "prompt": "Qual é a condição considerada ideal para a abertura da Permissão de Trabalho?",
+          "options": [
+            "Preenchimento pelo executante e validação posterior pela área",
+            "Envolvimento em campo da área responsável, do executante e da Segurança Industrial",
+            "Preenchimento exclusivo pelo Departamento de Segurança, com assinatura posterior dos demais",
+            "Preenchimento pelo gestor do contrato, sem necessidade de acompanhamento em campo"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        },
+        {
+          "prompt": "Qual é a finalidade dos checklists de segurança apresentados na integração?",
+          "options": [
+            "Registrar apenas a conclusão da atividade e identificar os trabalhadores envolvidos",
+            "Substituir a PT quando o serviço envolver equipamentos de alto risco",
+            "Comprovar que as medidas preventivas foram aplicadas e verificar etapas críticas antes, durante e após a atividade",
+            "Controlar exclusivamente a disponibilidade de ferramentas e equipamentos"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        },
+        {
+          "prompt": "O que significa LOTO no procedimento apresentado?",
+          "options": [
+            "Lock Out (Bloqueio), Tag Out (Sinalização) e Try Out (Teste)",
+            "Lock On (Ligamento), Tag Out (Identificação) e Try On (Operação)",
+            "Lock Out (Isolamento), Tag On (Liberação) e Test Out (Inspeção)",
+            "Lock Off (Desligamento), Tag Off (Retirada) e Try Out (Verificação)"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        },
+        {
+          "prompt": "Qual é a função da etiqueta de advertência no sistema LOTO?",
+          "options": [
+            "Identificar o trabalhador que realizou a manutenção, sem impedir a operação do equipamento",
+            "Sinalizar uma condição de bloqueio, alertando que o equipamento não deve ser acionado durante a intervenção",
+            "Indicar que o equipamento está liberado para operação, desde que a botoeira esteja desligada",
+            "Substituir o bloqueio físico quando houver necessidade de manutenção rápida"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 6 – PERMISSÃO DE TRABALHO, CHECKLISTS E LOTO"
+        }
+      ]
+    },
+    {
+      "slug": "atividades-de-risco-epis",
+      "title": "Atividades de risco, ferramentas e EPIs",
+      "description": "Atividades específicas, ferramentas manuais e elétricas, equipamentos de proteção individual e coletiva.",
+      "objectives": [
+        "Reconhecer os EPIs indicados no material para diferentes riscos.",
+        "Identificar orientações de segurança para ferramentas.",
+        "Conhecer as atividades de risco listadas na integração."
+      ],
+      "sections": [
+        {
+          "heading": "EPIs para acesso às plantas",
+          "body": "A apresentação lista como obrigatórios para acesso às plantas: capacete de segurança com jugular, óculos de segurança, botina de segurança, protetor auricular e uniforme comprido.",
+          "source": "Slide 37"
+        },
+        {
+          "heading": "EPIs conforme o risco",
+          "body": "O material descreve protetores auditivos tipo concha ou plug e informa atenuação de 17 dB(A) para plug e até 24 dB(A) para concha. Também apresenta luvas utilizadas conforme o risco, como manipulação de produtos químicos, material quente e serviços a quente; respiradores para atividades com fumos metálicos, gases ou pó; macacão para atividades com risco químico; e proteção específica para atividades a quente, elétricas e exposição a intempéries.",
+          "source": "Slides 38 a 46"
+        },
+        {
+          "heading": "EPC",
+          "body": "Equipamento de Proteção Coletiva (EPC) é apresentado como equipamento que protege todos os trabalhadores contra riscos de acidentes de forma coletiva.",
+          "source": "Slide 47"
+        },
+        {
+          "heading": "Ferramentas manuais e elétricas",
+          "body": "A apresentação orienta utilizar ferramentas em boas condições e específicas para a tarefa, não improvisar, utilizar extensões de energia sem emendas e realizar uma checagem antes de iniciar qualquer tarefa.",
+          "source": "Slide 76"
+        },
+        {
+          "heading": "Furadeira e parafusadeira",
+          "body": "O material lista riscos como lesões por uso inadequado, riscos elétricos, sobrecarga, lesões oculares e queda de parafusos ou peças. Entre as medidas apresentadas estão uso de EPIs adequados, verificação da broca, ajuste de torque, manuseio correto, evitar roupas folgadas e acessórios, cuidar de cabos e extensões, desconectar após o uso e manter o ambiente organizado.",
+          "source": "Slide 66"
+        },
+        {
+          "heading": "Atividades específicas",
+          "body": "A apresentação lista trabalho em altura (acima de 2 m ou onde haja risco de queda), trabalho a quente, espaço confinado, atividades elétricas, escavação e içamento de cargas. Os slides de algumas atividades apresentam apenas tópicos como definição, aptidão, EPIs, análise de risco e supervisão; os procedimentos completos precisam ser validados com o ESHQE.",
+          "source": "Slides 77 a 89"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Antes de utilizar uma furadeira ou parafusadeira, qual conjunto de verificações está de acordo com o material?",
+          "options": [
+            "Verificar somente a alimentação elétrica, selecionar qualquer broca disponível e ajustar o torque após iniciar a perfuração",
+            "Verificar a compatibilidade e as condições da broca, ajustar o torque, inspecionar cabos e extensões e utilizar os EPIs adequados",
+            "Verificar apenas a fixação da peça, pois a seleção da broca não interfere na segurança",
+            "Verificar a rotação da ferramenta, utilizar roupas folgadas para facilitar a movimentação e manter a ferramenta conectada após o uso"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 7 – FERRAMENTAS MANUAIS E ELÉTRICAS"
+        },
+        {
+          "prompt": "Por que o material recomenda verificar se a broca é compatível com o material a ser perfurado e se está livre de trincas ou deformações?",
+          "options": [
+            "Para reduzir o tempo de execução, mesmo que a broca apresente desgaste",
+            "Para evitar exclusivamente o aquecimento do motor da ferramenta",
+            "Porque acessórios inadequados ou danificados aumentam o risco de acidentes durante a perfuração",
+            "Porque a compatibilidade da broca interfere apenas no acabamento, não na segurança"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 7 – FERRAMENTAS MANUAIS E ELÉTRICAS"
+        },
+        {
+          "prompt": "Em uma perfuração sobre superfície lisa, qual recurso pode ser utilizado para reduzir a possibilidade de a broca deslizar no início da operação?",
+          "options": [
+            "Aumentar o torque antes de encostar a broca na superfície",
+            "Utilizar uma extensão mais longa para melhorar o alcance",
+            "Realizar a perfuração em velocidade máxima desde o primeiro contato",
+            "Utilizar um punção para realizar a marcação inicial, quando necessário"
+          ],
+          "correct": 3,
+          "reference": "ETAPA 7 – FERRAMENTAS MANUAIS E ELÉTRICAS"
+        },
+        {
+          "prompt": "Qual das alternativas apresenta cuidados específicos citados para o uso de parafusadeiras?",
+          "options": [
+            "Utilizar EPIs adequados, evitar roupas folgadas e acessórios, verificar cabos e extensões e desconectar a ferramenta após o uso",
+            "Utilizar luvas em qualquer situação, manter acessórios pessoais e desconectar a ferramenta somente em caso de falha",
+            "Ajustar o torque somente após a perfuração e manter a ferramenta conectada para facilitar o próximo uso",
+            "Verificar somente a broca, dispensando a inspeção dos cabos quando a ferramenta estiver funcionando normalmente"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 7 – FERRAMENTAS MANUAIS E ELÉTRICAS"
+        },
+        {
+          "prompt": "Quais atividades aparecem na integração como trabalhos que exigem permissão específica?",
+          "options": [
+            "Trabalho em altura, limpeza de escritório, operação de computador, transporte de documentos e manutenção administrativa",
+            "Trabalho em altura, espaço confinado, energia elétrica, trabalho a quente, escavação e içamento de carga",
+            "Trabalho em altura, movimentação manual, limpeza industrial, operação de empilhadeira e inspeção visual",
+            "Espaço confinado, trabalho administrativo, operação de veículos, manutenção de rotina e movimentação de materiais"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 8 – TRABALHOS DE RISCO ESPECÍFICOS"
+        },
+        {
+          "prompt": "Qual é o propósito da permissão para trabalhos específicos apresentada no material?",
+          "options": [
+            "Autorizar qualquer trabalhador treinado a entrar em áreas de risco, sem necessidade de avaliação da atividade",
+            "Registrar o horário de início e fim de atividades que já possuem autorização permanente",
+            "Restringir o acesso à área de risco aos trabalhadores necessários à atividade e formalizar a avaliação dos riscos envolvidos",
+            "Substituir o acompanhamento técnico por uma autorização documental"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 8 – TRABALHOS DE RISCO ESPECÍFICOS"
+        },
+        {
+          "prompt": "Em relação às atividades elétricas, qual conjunto de aspectos é destacado nos slides?",
+          "options": [
+            "Definição, treinado versus autorizado, aptidão, EPIs e EPCs, análise de risco e supervisão",
+            "Definição, produtividade, velocidade de execução, manutenção preventiva e inspeção visual",
+            "Autorização verbal, uso de luvas, desligamento da botoeira e liberação pelo executante",
+            "Treinamento geral, uso de capacete, preenchimento de checklist e comunicação ao final da atividade"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 8 – TRABALHOS DE RISCO ESPECÍFICOS"
+        },
+        {
+          "prompt": "Na etapa de escavação, quais aspectos devem ser considerados segundo a integração?",
+          "options": [
+            "Apenas a profundidade da escavação e o prazo para conclusão",
+            "Definição, riscos associados, autorização e acompanhamento técnico, análise de relação com espaço confinado e formas de escoramento",
+            "Somente a disponibilidade de equipamentos e a sinalização do local",
+            "Apenas a presença de um supervisor e o isolamento da área externa"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 8 – TRABALHOS DE RISCO ESPECÍFICOS"
+        },
+        {
+          "prompt": "Como o material define o içamento de cargas?",
+          "options": [
+            "Transporte horizontal de materiais leves realizado exclusivamente por paleteiras",
+            "Elevação vertical de peso, destinada ao transporte de móveis, máquinas, vidros e outros objetos pesados ou de grande comprimento",
+            "Movimentação manual de materiais entre dois níveis, sem utilização de equipamentos",
+            "Transporte de cargas exclusivamente por empilhadeiras, independentemente da direção do deslocamento"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 8 – TRABALHOS DE RISCO ESPECÍFICOS"
+        }
+      ]
+    },
+    {
+      "slug": "emergencias",
+      "title": "Emergências e evacuação",
+      "description": "Alarmes, comunicação de emergência, brigada, evacuação, rotas de fuga e pontos de encontro.",
+      "objectives": [
+        "Diferenciar os sinais de alarme descritos na apresentação.",
+        "Reconhecer as informações necessárias ao comunicar uma emergência.",
+        "Identificar orientações de evacuação segura."
+      ],
+      "sections": [
+        {
+          "heading": "Sinais de alarme",
+          "body": "Ao soar a sirene em toque intermitente, compete aos brigadistas irem ao ponto de encontro para verificar os fatos. Ao soar a sirene em toque contínuo, todas as pessoas devem seguir as orientações da Brigada de Emergência e evacuar imediatamente as dependências da planta para uma área segura.",
+          "source": "Slide 50"
+        },
+        {
+          "heading": "Comunicação de emergência",
+          "body": "O acionamento pode ocorrer pelo rádio na faixa 2 ou por botoeira. A apresentação orienta informar nome/empresa, local exato da emergência, explicar brevemente e com calma o que aconteceu e informar o que já foi feito.",
+          "source": "Slide 51"
+        },
+        {
+          "heading": "Testes de alarme",
+          "body": "O material informa que o teste do alarme é realizado às quartas-feiras às 10h e o teste do PAM às sextas-feiras às 9h. Durante os testes de alarme, a orientação é manter a atividade normalmente.",
+          "source": "Slide 52"
+        },
+        {
+          "heading": "Evacuação segura",
+          "body": "Ao ouvir o alarme: manter a calma e não correr; se ocorrer emergência na área, ir ao ponto de encontro e aguardar a abordagem da brigada; não obstruir passagens ou portas de emergência; seguir as placas de sinalização.",
+          "source": "Slide 53"
+        },
+        {
+          "heading": "Birutas e direção de fuga",
+          "body": "A apresentação informa que a biruta indica a direção do vento e orienta o deslocamento seguro. O slide orienta seguir em sentido oposto ao indicado pela biruta para reduzir a exposição a áreas potencialmente afetadas por fumaça, gases ou partículas em suspensão.",
+          "source": "Slide 54"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Como deve ser acionada a comunicação de emergência apresentada na integração?",
+          "options": [
+            "Pelo rádio na faixa 2 ou pela botoeira, informando nome/empresa, local exato, o que aconteceu e o que já foi feito",
+            "Pelo rádio na faixa 1 ou telefone pessoal, informando apenas o nome do solicitante e o setor",
+            "Exclusivamente pela botoeira, informando o local aproximado e aguardando o contato da brigada",
+            "Pelo rádio na faixa 2, informando apenas o tipo de ocorrência, sem necessidade de identificar o local"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 10 – EMERGÊNCIAS, ALARMES E EVACUAÇÃO"
+        },
+        {
+          "prompt": "Durante o acionamento de emergência pelo rádio, qual deve ser a forma de transmitir as informações?",
+          "options": [
+            "Falar rapidamente, utilizando termos técnicos, para liberar o canal o quanto antes",
+            "Informar somente o nome da empresa e aguardar que a equipe de emergência solicite os demais dados",
+            "Falar com calma e brevemente, identificando quem está comunicando, o local exato, o ocorrido e as ações já realizadas",
+            "Informar primeiro as ações realizadas e deixar a identificação do local para o atendimento presencial"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 10 – EMERGÊNCIAS, ALARMES E EVACUAÇÃO"
+        },
+        {
+          "prompt": "Qual é a frequência dos testes de alarme apresentada na integração?",
+          "options": [
+            "Alarme Evonik às quartas-feiras às 10h e teste do PAM às sextas-feiras às 9h",
+            "Alarme Evonik às sextas-feiras às 9h e teste do PAM às quartas-feiras às 10h",
+            "Ambos os testes são realizados às quartas-feiras às 10h",
+            "Ambos os testes são realizados às sextas-feiras às 9h"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 10 – EMERGÊNCIAS, ALARMES E EVACUAÇÃO"
+        },
+        {
+          "prompt": "Durante os testes programados dos alarmes, qual orientação deve ser seguida?",
+          "options": [
+            "Interromper as atividades e deslocar-se ao ponto de encontro para confirmar o funcionamento do sistema",
+            "Manter a atividade normalmente durante os testes de alarme",
+            "Desligar os equipamentos e aguardar autorização para retomar as atividades",
+            "Abandonar a área de trabalho sempre que houver qualquer acionamento sonoro"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 10 – EMERGÊNCIAS, ALARMES E EVACUAÇÃO"
+        },
+        {
+          "prompt": "Ao ouvir o alarme de emergência em uma situação real, qual procedimento está de acordo com a integração?",
+          "options": [
+            "Correr até a portaria, buscar pertences pessoais e aguardar instruções na entrada",
+            "Manter a calma, não correr, dirigir-se ao ponto de encontro quando houver emergência na área e aguardar a abordagem da brigada",
+            "Permanecer na área até receber uma comunicação individual do supervisor",
+            "Seguir diretamente para o estacionamento, evitando as rotas de fuga sinalizadas"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 10 – EMERGÊNCIAS, ALARMES E EVACUAÇÃO"
+        },
+        {
+          "prompt": "Durante uma evacuação, qual é a função da biruta de sinalização?",
+          "options": [
+            "Indicar a rota mais curta até a portaria, independentemente da direção do vento",
+            "Indicar a intensidade do alarme e o ponto de encontro mais próximo",
+            "Indicar a direção do vento, orientando a fuga no sentido oposto para evitar fumaça, gases ou partículas em suspensão",
+            "Indicar a direção de entrada da brigada, que deve ser seguida pelos trabalhadores"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 10 – EMERGÊNCIAS, ALARMES E EVACUAÇÃO"
+        }
+      ]
+    },
+    {
+      "slug": "produtos-quimicos",
+      "title": "Produtos químicos e Diphoterine",
+      "description": "Ficha de Dados de Segurança, contato com produtos químicos e recursos de Diphoterine disponíveis no site.",
+      "objectives": [
+        "Reconhecer a nomenclatura FDS/FISPQ utilizada no material.",
+        "Identificar os recursos de Diphoterine citados para o site Americana.",
+        "Reconhecer as orientações apresentadas para ausência de Diphoterine próximo."
+      ],
+      "sections": [
+        {
+          "heading": "FDS / FISPQ",
+          "body": "A apresentação possui uma seção intitulada FDS – Ficha de Dados de Segurança e apresenta perguntas sobre o que é FISPQ, quais informações a compõem e quando é obrigatória. O conteúdo textual disponível não detalha as respostas. Este tópico deve ser complementado e validado pelo ESHQE antes de ser usado como instrução operacional.",
+          "source": "Slide 90 — conteúdo insuficiente para aula completa."
+        },
+        {
+          "heading": "Contato com produtos químicos",
+          "body": "O material destaca a importância de conhecer previamente o risco e apresenta a Regra dos 60 segundos e o protocolo de uso do Diphoterine®. O passo a passo completo do protocolo não está descrito no texto extraído da apresentação e precisa ser validado com o ESHQE.",
+          "source": "Slides 91 e 92"
+        },
+        {
+          "heading": "Recursos disponíveis no site Americana",
+          "body": "A apresentação informa a existência de 18 kits contendo lava-olhos e spray e uma ducha autônoma portátil. Os recipientes apresentados são lava-olhos individual de 500 ml, spray de 100 ml e ducha autônoma portátil de 5 L. O slide também lista localizações dos kits em áreas do site.",
+          "source": "Slide 93"
+        },
+        {
+          "heading": "Se não houver Diphoterine próximo",
+          "body": "A apresentação orienta: parar imediatamente a atividade; nunca atrasar a lavagem; usar água em abundância (chuveiro de emergência/lava-olhos) e depois lavar com Diphoterine® o mais rápido possível; usar todo o conteúdo do recipiente; procurar imediatamente um médico juntamente com a FISPQ; e, caso necessário, procurar um brigadista.",
+          "source": "Slide 94"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Qual é a função da FISPQ/FDS no contexto de segurança química apresentado na integração?",
+          "options": [
+            "Registrar exclusivamente o lote, o fabricante e a quantidade armazenada do produto",
+            "Apresentar informações de segurança do produto químico, incluindo perigos, medidas preventivas e orientações para situações de emergência",
+            "Substituir a avaliação de risco e a autorização para manuseio do produto",
+            "Indicar somente os equipamentos de proteção utilizados durante o transporte"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 9 – SEGURANÇA QUÍMICA, FISPQ/FDS E DIPHOTERINE"
+        },
+        {
+          "prompt": "Qual é a recomendação central da integração em relação à chamada Regra dos 60 segundos do Diphoterine?",
+          "options": [
+            "Conhecer previamente os riscos e estar preparado para agir com rapidez em caso de contato químico",
+            "Aguardar 60 segundos após o contato para avaliar se haverá reação antes de iniciar o atendimento",
+            "Utilizar o Diphoterine somente quando o contato químico provocar dor ou irritação",
+            "Realizar a lavagem com água durante 60 segundos antes de procurar o kit de Diphoterine"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 9 – SEGURANÇA QUÍMICA, FISPQ/FDS E DIPHOTERINE"
+        },
+        {
+          "prompt": "Quantos kits contendo lava-olhos e spray de Diphoterine estão disponíveis no Site Americana, conforme apresentado?",
+          "options": [
+            "15 kits e uma ducha autônoma portátil de 10 litros",
+            "18 kits e uma ducha autônoma portátil de 5 litros",
+            "18 kits e duas duchas autônomas portáteis de 5 litros",
+            "20 kits e uma ducha autônoma portátil de 5 litros"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 9 – SEGURANÇA QUÍMICA, FISPQ/FDS E DIPHOTERINE"
+        },
+        {
+          "prompt": "Quais são os volumes dos equipamentos de Diphoterine indicados no material?",
+          "options": [
+            "Lava-olhos individual de 100 ml, spray de 500 ml e ducha de 5 litros",
+            "Lava-olhos individual de 500 ml, spray de 100 ml e ducha autônoma portátil de 5 litros",
+            "Lava-olhos individual de 500 ml, spray de 250 ml e ducha de 10 litros",
+            "Lava-olhos individual de 1 litro, spray de 100 ml e ducha de 5 litros"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 9 – SEGURANÇA QUÍMICA, FISPQ/FDS E DIPHOTERINE"
+        },
+        {
+          "prompt": "Caso ocorra contato com produto químico e não exista Diphoterine próximo, qual é a sequência indicada no material?",
+          "options": [
+            "Procurar primeiro a FISPQ, aguardar a chegada do brigadista e depois iniciar a lavagem com água",
+            "Parar a atividade, iniciar imediatamente a lavagem com água em abundância, utilizar Diphoterine assim que possível, consumir todo o conteúdo do recipiente e procurar atendimento médico com a FISPQ",
+            "Utilizar um pano para remover o produto, aplicar Diphoterine somente se houver irritação e procurar atendimento ao final do turno",
+            "Continuar a atividade, localizar o kit mais próximo e iniciar a lavagem somente quando o produto estiver disponível"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 9 – SEGURANÇA QUÍMICA, FISPQ/FDS E DIPHOTERINE"
+        },
+        {
+          "prompt": "Por que o material orienta a procurar atendimento médico imediatamente após o procedimento de lavagem em caso de contato químico?",
+          "options": [
+            "Porque a lavagem elimina a necessidade de avaliação do produto químico, mas é necessário registrar o atendimento",
+            "Porque o atendimento médico deve avaliar a ocorrência, e a FISPQ deve acompanhar as informações sobre o produto envolvido",
+            "Porque a FISPQ substitui o procedimento de lavagem e permite identificar a necessidade de atendimento",
+            "Porque o atendimento médico só é necessário quando o Diphoterine não estiver disponível"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 9 – SEGURANÇA QUÍMICA, FISPQ/FDS E DIPHOTERINE"
+        }
+      ]
+    },
+    {
+      "slug": "ergonomia-ambiente",
+      "title": "Ergonomia e gestão ambiental",
+      "description": "Orientações ergonômicas, movimentação de cargas e descarte e segregação de resíduos.",
+      "objectives": [
+        "Reconhecer o conceito de ergonomia apresentado.",
+        "Identificar orientações de movimentação e postura descritas no material.",
+        "Reconhecer os princípios de redução, reutilização e reciclagem."
+      ],
+      "sections": [
+        {
+          "heading": "Conceito de ergonomia",
+          "body": "Ergonomia é apresentada como conjunto de disciplinas que estuda a organização do trabalho e as interações entre seres humanos e máquinas. Seu objetivo é adaptar elementos do ambiente de trabalho ao ser humano, buscando bem-estar e produtividade.",
+          "source": "Slide 96"
+        },
+        {
+          "heading": "Movimentação e escadas",
+          "body": "Ao subir e descer escadas, a apresentação orienta não transportar mais que 5 kg, manter uma das mãos no corrimão e não carregar objeto que obstrua a visão. Também apresenta a orientação de transportar até 50 kg em duas pessoas e até 250 kg com paleteira.",
+          "source": "Slide 95"
+        },
+        {
+          "heading": "Ergonomia no escritório",
+          "body": "O material apresenta orientações sobre iluminação geral, materiais que absorvam ruídos, superfície de trabalho entre 72 e 75 cm (com ajuste conforme a pessoa), cadeira adequada ao biotipo com apoio dos pés e lombar e regulagens, suporte para laptop para manter a tela na altura dos olhos e pausas para levantar, caminhar, beber água e alongar-se.",
+          "source": "Slide 97"
+        },
+        {
+          "heading": "Gestão ambiental e resíduos",
+          "body": "A apresentação destaca os princípios REDUZIR, REUTILIZAR e RECICLAR. Também aborda cores da coleta seletiva, descarte de pilhas e baterias em recipientes apropriados e orientação de que o descarte de obras e paradas planejadas deve ser conduzido pelo gestor do contrato. As cores específicas da coleta seletiva devem ser conferidas na imagem original antes da publicação.",
+          "source": "Slides 100 a 103"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Ao subir ou descer escadas, qual conjunto de cuidados corresponde exatamente à orientação apresentada no material?",
+          "options": [
+            "Transportar até 10 kg, utilizar o corrimão quando houver carga e manter os objetos próximos ao corpo",
+            "Não transportar mais que 5 kg, manter uma das mãos no corrimão e não carregar objetos que obstruam a visão",
+            "Transportar até 5 kg com as duas mãos, utilizando o corrimão somente quando estiver sem carga",
+            "Transportar até 20 kg, mantendo uma das mãos livre e utilizando o corrimão apenas na descida"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        },
+        {
+          "prompt": "Segundo as orientações de ergonomia para movimentação de cargas, como devem ser transportados os materiais nos limites apresentados?",
+          "options": [
+            "Até 50 kg por uma pessoa e até 250 kg por duas pessoas",
+            "Até 50 kg por duas pessoas e até 250 kg com paleteira",
+            "Até 50 kg com paleteira e até 250 kg por duas pessoas",
+            "Até 20 kg por uma pessoa e até 250 kg por empilhadeira"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        },
+        {
+          "prompt": "Qual alternativa apresenta corretamente os EPIs obrigatórios para acesso às plantas, conforme o slide?",
+          "options": [
+            "Capacete com jugular, óculos de segurança, botina de segurança, protetor auricular e uniforme comprido",
+            "Capacete sem jugular, óculos de segurança, botina, luvas e uniforme de mangas curtas",
+            "Capacete com jugular, protetor facial, botina, cinto de segurança e uniforme comprido",
+            "Óculos de segurança, protetor auricular, luvas, máscara respiratória e uniforme comprido"
+          ],
+          "correct": 0,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        },
+        {
+          "prompt": "Segundo as informações de proteção auditiva do material, quais são as atenuações indicadas para os protetores tipo plug e tipo concha?",
+          "options": [
+            "Plug: 24 dB(A); concha: 17 dB(A)",
+            "Plug: 17 dB(A); concha: 24 dB(A)",
+            "Plug: 20 dB(A); concha: 25 dB(A)",
+            "Plug: 15 dB(A); concha: 20 dB(A)"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        },
+        {
+          "prompt": "Em quais situações o material indica a utilização de luvas de segurança?",
+          "options": [
+            "Somente durante a manipulação de produtos químicos, independentemente dos demais riscos",
+            "Exclusivamente em atividades de limpeza e manutenção de equipamentos",
+            "Conforme o risco, incluindo manipulação de produtos químicos, materiais quentes, serviços a quente e componentes",
+            "Apenas em atividades com ferramentas elétricas e movimentação de cargas"
+          ],
+          "correct": 2,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        },
+        {
+          "prompt": "Qual é o direito do trabalhador quando identifica uma situação que, por motivos razoáveis, representa risco grave e iminente à sua vida ou saúde?",
+          "options": [
+            "Continuar a atividade até que o supervisor realize uma inspeção formal",
+            "Interromper a atividade e informar imediatamente ao superior hierárquico",
+            "Abandonar o site sem comunicar a ocorrência",
+            "Solicitar que outro trabalhador assuma a tarefa, mantendo a operação em andamento"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        },
+        {
+          "prompt": "Qual é a responsabilidade do trabalhador em relação aos requisitos de segurança e saúde apresentados no material?",
+          "options": [
+            "Cumprir somente os procedimentos internos, sendo os exames médicos e o uso de EPIs de responsabilidade exclusiva da empresa",
+            "Cumprir as disposições legais e regulamentares, seguir as ordens de serviço, submeter-se aos exames previstos, colaborar com a organização e utilizar os EPIs fornecidos",
+            "Utilizar os EPIs somente quando houver fiscalização e participar dos exames médicos apenas quando apresentar sintomas",
+            "Cumprir as orientações do supervisor, podendo dispensar procedimentos quando possuir experiência na atividade"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        },
+        {
+          "prompt": "Qual é o compromisso ambiental da Evonik apresentado na integração?",
+          "options": [
+            "Priorizar a ampliação da produção, mantendo os níveis atuais de extração de recursos naturais",
+            "Minimizar os impactos ambientais e reduzir a extração de recursos naturais",
+            "Concentrar as ações ambientais exclusivamente no tratamento de resíduos industriais",
+            "Reduzir o consumo de energia, sem considerar os demais impactos ambientais"
+          ],
+          "correct": 1,
+          "reference": "ETAPA 11 – ERGONOMIA, EPIs E SISTEMA DE GESTÃO AMBIENTAL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}{% block content %}
+<section class="narrow panel">
+  <p class="eyebrow">ATIVAÇÃO DE CONTA</p>
+  <h1>Bem-vindo(a), {{ invite.name }}</h1>
+  <p>Confirme os dados do convite e crie sua senha.</p>
+  <div class="detail-grid">
+    <span>E-mail</span><strong>{{ invite.email }}</strong
+    ><span>Departamento</span><strong>{{ invite.department }}</strong>
+  </div>
+  <form method="post">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" /><label
+      >Senha (mínimo de 10 caracteres)<input
+        type="password"
+        name="password"
+        minlength="10"
+        required /></label
+    ><label
+      >Confirmar senha<input
+        type="password"
+        name="confirm_password"
+        minlength="10"
+        required /></label
+    ><button class="primary">Ativar conta</button>
+  </form>
+</section>
+{% endblock %}
